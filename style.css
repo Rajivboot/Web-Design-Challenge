@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+}
+
+h1, h2, h3 {
+    color: teal !important;
+}
+
+.navbar {
+    /* padding: top, right, bottom, left */
+    /* padding: top & bottom, right & left */
+    /* padding: all */
+    padding: 0px !important;
+    padding-left: 5px !important;
+}
+
+.green-box {
+    background-color: teal;
+    color: white !important;
+    padding: 6px;
+}
+
+.title {
+    color: rgb(52, 149, 165);
+    font-family: cochin;
+    font-weight: bolder;
+    padding-top: 10px;
+  }
+
+  .vizualization {
+    width:50%;
+    height:50%;
+    display: flex;
+  }
+
+
+
+@media only screen and (max-width: 999px){
+    .navbar-light{
+        background-color: teal !important;
+    }
+}
